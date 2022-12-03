@@ -20,7 +20,7 @@ rm phpmyadmin.zip
 mv phpMyAdmin-*-all-languages phpmyadmin && chmod -R 0755 phpmyadmin
 cd /etc/apache2/conf-available/
 #Download the Apache config
-wget https:// -O phpmyadmin.conf
+wget https://github.com/Matthe255/MariaDB_Automatic_Install_Files/blob/main/phpmyadmin.conf.txt -O phpmyadmin.conf
 
 
 
